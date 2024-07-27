@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(83, 4, 4);
+}
+.menu .pimg{
+    margin-top: 10px;
+    position: absolute;
+    inset: 0;
+}
+.menu .pimg img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .menu .pimg img{
+        height: 480px;
+    }
+    .menu .pimg{
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .menu .pimg img{
+        height: 480px;
+        width: 100%;
+    }
+    .menu .pimg{
+        margin-top: 30px;
+    }
+}
