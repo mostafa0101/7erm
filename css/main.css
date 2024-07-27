@@ -2,9 +2,7 @@ body{
     background-color: rgb(83, 4, 4);
 }
 .menu .pimg{
-    margin-top: 10px;
-    position: absolute;
-    inset: 0;
+    
 }
 .menu .pimg img{
     width: 100%;
@@ -22,11 +20,13 @@ body{
 
 
 @media screen and (max-width: 500px) {
-    .menu .pimg img{
-        height: 350px;
-        width: 100%;
+    .menu{
+        height: 600px;
+        overflow-y: hidden;
     }
-    .menu .pimg{
-        margin-top: 125px;
+    
+    .menu .pimg img{
+        margin-top: 100px;
+        height: 350px;
     }
 }
